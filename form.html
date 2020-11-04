@@ -7,26 +7,75 @@
 </head>
 <body>
     <h1>User Registeration Form</h1>
+    <fieldset>
+        <legend>User Details</legend>
     <form action=""  method="GET">
-    <label for="fname">FirstName: </label>
-    <input type="text" name="" value="" id=""><br><br>
-    <label for="lname">LastName: </label>
-    <input type="text" name="" value="" id=""><br><br>
-    <label for="email">Enter your email:</label>
+    <label for="name">Name: </label>
+    <input type="text" name="name" value="" id="">
+    <br>
+    <br>
+    
+    <label for="email">Email:</label>
     <input type="email" id="" name=""> <br><br>
+    
+    <label for="gender">Gender:</label><br>
+    <select id="gender" name="gender" size="2" multiple>
+      <option value="male">Male</option>
+      <option value="female">Female</option>
+      <option value="other">Other</option>
+    </select> 
+  <br>
+  <br>
+  <label for="">Address:</label><br>
+ <textarea name="message" rows="10" cols="30"></textarea>
 
-    <label for="fname">Select gender</label><br>
-   <input type="radio" id="" name="gender" value="">
-  <label for="male">Male</label><br>
-  <input type="radio" id="" name="gender" value="">
-  <label for="female">Female</label><br>
-  <input type="radio" id="" name="gender" value="">
-  <label for="other">Other</label> <br><br>
+</fieldset>
+<br>
+
+<fieldset>
+      <legend>Details about Employee</legend>
+      <label for="">Company:</label><br>
+    <select id="" name="">
+    <option value="RE">Raw Engineering</option>
+    <option value="CS">Contentstack</option>
+    <option value="SF">Surfboard</option>
+</select>
+<br>
+<br>
+<label for="">Working as:</label><br>
+<input type="radio" id="" name="status" value=""  >
+  <label for="male">Confirmed</label>
+  <input type="radio" id="" name="status" value="" >
+  <label for="female">Intern</label><br><br>
+
+<label for="">Skills:</label><br>
+<input type="checkbox" id="" name="skills" value="">
+<label for="html">HTML</label><br>
+<input type="checkbox" id="" name="skills" value="">
+<label for="css">CSS</label><br>
+<input type="checkbox" id="" name="skills" value="">
+<label for="js">JS</label><br>
+<input type="checkbox" id="" name="skills" value="">
+<label for="BS">Bootstrap</label>
+</fieldset>
+
+<br>
 
   <label for="pwd">Password:</label>
+  <input type="password" id="pwd" name="pwd">
+  
+<br>
+<br>
+
+  <label for="pwd">Confirm Password:</label>
   <input type="password" id="pwd" name="pwd"><br><br>
-  <button>Submit</button>
-    </form>
+  <button>Submit</button><br><br>
+
+  <input type="checkbox" id="" name="skills" value="">
+  <label for="BS">*Accept all Terms and Conditions</label>
+</form>
+
+
 
 </body>
 </html>
